@@ -25,7 +25,14 @@ For this you need to place the Sitecore installation files and a Sitecore licens
 The XP0 Sitecore topology requires SSL between the services, for this we need self signed certificates for the 
 xConnect and SOLR roles. You can generate these by running the `./Generate-Certificates.ps1` script (note that this requires an Administrator elevated powershell environment and you may need to set the correct execution policy, e.g. `PS> powershell.exe -ExecutionPolicy Unrestricted`).
 
-> SXA is installed using Commerce SIF. Therefore building SXA images requires you have the Commerce SIF package availabled in the `Files` directory.
+> SXA is installed using Commerce SIF. Therefore building SXA images requires you have the Commerce SIF package availabled in the `Files` directory. 
+
+BE SURE TO NAME `files` directory all lowercase or you might get an error: 
+
+```Step 18/29 : COPY files/*.pfx /Files/
+COPY failed: no source files were specified
+Process 'docker.exe' exited with code 1."
+```
 
 ## Build
 Build all images using:
