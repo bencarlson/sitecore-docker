@@ -34,6 +34,8 @@ COPY failed: no source files were specified
 Process 'docker.exe' exited with code 1."
 ```
 
+Download Sitecore Experience Accelerator 1.8 rev. 181112 for 9.0.zip and Sitecore PowerShell Extensions-5.0.zip and place in 'files' directory. 
+
 ## Build
 Build all images using:
 ```
