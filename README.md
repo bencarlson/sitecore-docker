@@ -36,6 +36,8 @@ Process 'docker.exe' exited with code 1."
 
 Download Microsoft.Web.XmlTransform.dll, Sitecore Experience Accelerator 1.8 rev. 181112 for 9.0.zip and Sitecore PowerShell Extensions-5.0.zip and place in 'files' directory. 
 
+Download https://github.com/plumber-sc/plumber-sc release.zip and rename it 'plumber.zip' and put it in the 'files' directory. 
+
 ## Build
 Build all images using:
 ```
