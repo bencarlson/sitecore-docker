@@ -38,6 +38,23 @@ Download Microsoft.Web.XmlTransform.dll, Sitecore Experience Accelerator 1.8 rev
 
 Download https://github.com/plumber-sc/plumber-sc release.zip and rename it 'plumber.zip' and put it in the 'files' directory. 
 
+Create the following directories if they are missing: 
+
+
+...
+* xc
+    * data
+        * mssql
+        * solr
+* xp
+    * data
+        * mssql
+        * solr
+        
+...
+
+
+
 ## Build
 Build all images using:
 ```
